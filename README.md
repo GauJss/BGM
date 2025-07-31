@@ -4,7 +4,9 @@ This repository contains the implementation of the method proposed in the paper 
 
 ## Simulations/
 This folder includes the code for reproducing the simulation results presented in Figures 2–4 of the paper:
+
 "Simu_Figure#.R": Main scripts for generating the results shown in Figure #.
+
 "functions.R": Supporting utility functions used across the simulation scripts.
 
 
