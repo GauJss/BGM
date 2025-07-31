@@ -13,13 +13,13 @@ This folder includes the code for reproducing the simulation results presented i
 ## Real data/
 This folder contains two subfolders, each corresponding to a real-world dataset analyzed in the paper:
 
-"HIV_code/" contains code for analyzing the HIV drug resistance dataset. Its scripts "HIV_#.R" reproduce the results in Figures 5–7 of the paper. Original data of this example is publicly available at: https://hivdb.stanford.edu/pages/published_analysis/genophenoPNAS2006/. For convenience, we also provide the dataset as "#_DATA.txt" files.
+"HIV_code/" contains code for analyzing the HIV drug resistance dataset. Its scripts "HIV_#.R" reproduce the results in Figures 5–7 of the paper. Utility functions are included in "functions.R". Original data of this example is publicly available at: https://hivdb.stanford.edu/pages/published_analysis/genophenoPNAS2006/. For convenience, we also provide the dataset as "#_DATA.txt" files.
 
 "scRNAseq_code/" contains code for analyzing the single-cell RNA sequencing data. The script "scRNA_seq.R" reproduces results reported in Table 3 of the paper. Utility functions are included in "functions.R". Original data of this analysis are available at: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE141834. Due to file size limits, the raw ".txt" data are not included in this repository.
 
 
 ## Notation
-Please note that the reproduced empirical results may differ slightly from those reported in the paper. This variation is expected due to the inherent randomness in the sampling process and the non-deterministic nature of the algorithm.
+Please note that the reproduced empirical results may differ slightly from those reported in the paper. This variation is expected due to the inherent randomness in the data generation process and the non-deterministic nature of the algorithm.
 
 
 ## Function Documentation
