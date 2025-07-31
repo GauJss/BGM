@@ -11,7 +11,7 @@ This folder includes the code for reproducing the simulation results presented i
 
 
 ## Real data/
-This folder contains two subfolders, each corresponding to a real-world network dataset analyzed in the paper:
+This folder contains two subfolders, each corresponding to a real-world dataset analyzed in the paper:
 
 "HIV_code/" contains code for analyzing the HIV drug resistance dataset. Its scripts "HIV_#.R" reproduce the results in Figures 5–7 of the paper. Original data of this example are publicly available at: https://hivdb.stanford.edu/pages/published_analysis/genophenoPNAS2006/. For convenience, we also provide the dataset as "#_DATA.txt" files.
 
